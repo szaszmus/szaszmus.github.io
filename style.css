@@ -1,6 +1,5 @@
 html {
     background-color: whitesmoke;
-    background-image: url("../kepek/cutb-bkgrnd.jpg");
 
 }
 
@@ -26,6 +25,10 @@ html {
 
 }
 
+.menu a {
+    text-decoration: none;
+}
+
 h1 {
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -38,7 +41,10 @@ h1 {
 }
 
 #kis {
-    width:30%; height:30%;
+    width:20%; height:20%;
+    
+    float: right;
+    
 
 }
 
@@ -54,20 +60,21 @@ h3,a {
     
 }
 
-p {
+p, tr, td{
     font-family: "Oswald-light";
-    padding: 5px;
+    
+    padding: 5% 2% 0% ; 
     
 }
 
 
 .box-kin {
     border: solid 2px greenyellow;
-    border-collapse: separate;
+    border-collapse: collapse;
     border-radius: 5px;
     background-color: greenyellow;
     max-width: 40%;
-    max-height: 40%;
+    height: 60%;
     align-self: center;
     padding: 10px;
     margin: 1%;
@@ -84,6 +91,19 @@ ul {
 
 img {
     box-shadow: 0 0 10px black;
-    position: relative;
+      
+}
+    
+   
+
+
+.menu a:hover {
+    text-decoration: underline;
+    color: lawngreen;
+
+}
+
+table {
+    width: 100%;
 
 }
