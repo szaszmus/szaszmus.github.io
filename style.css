@@ -1,3 +1,36 @@
+html {
+    background-color: whitesmoke;
+    background-image: url("../kepek/cutb-bkgrnd.jpg");
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+@font-face {
+    font-family: "Oswald";
+    src: url("Oswald-Regular.ttf");
+    font-weight: 500;
+
+}
+
+@font-face {
+    font-family: "Oswald-light";
+    src: url("Oswald-Regular.ttf");
+    font-weight: 100;
+
+}
+
+.menu {
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
 #td1 {
     font-weight: bold;
     color: red;
@@ -5,11 +38,52 @@
 }
 
 #kis {
-    width:100px; height:100px;
+    width:30%; height:30%;
 
 }
 
 #kozepes {
 
-    width:400px; height:100px;
+    width:60%; height:10%;
+}
+
+h3,a {
+    font-family: "Oswald";
+    color: darkgreen;
+    font-size: 25px;
+    
+}
+
+p {
+    font-family: "Oswald-light";
+    padding: 5px;
+    
+}
+
+
+.box-kin {
+    border: solid 2px greenyellow;
+    border-collapse: separate;
+    border-radius: 5px;
+    background-color: greenyellow;
+    max-width: 40%;
+    max-height: 40%;
+    align-self: center;
+    padding: 10px;
+    margin: 1%;
+    position: relative;
+    top: 27%;
+    left: 27%;
+ 
+  }
+
+ul {
+    list-style: none;
+
+}
+
+img {
+    box-shadow: 0 0 10px black;
+    position: relative;
+
 }
